@@ -9,6 +9,7 @@ $news = array(
 	array('title'=>'揭秘台湾驻港间谍网运作 湖北宜昌副市长被查','date'=>'2014-1-6'),
 );  
   
+header('content-type:application:json;charset=utf8');
 // 指定允许其他域名访问  
 header('Access-Control-Allow-Origin:*');  
 // 响应类型  
