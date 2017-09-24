@@ -1015,11 +1015,11 @@
 		var aaa = document.getElementById("aaa");
 		aaa.onclick= function () {
 			var xhr = new XMLHttpRequest();
-			xhr.open("GET", "http://test.com/?keywords=手机", true);  
+			xhr.open("GET", "https://github.com/f641753527/100du/tree/master/api/seller.php", true);  
 			xhr.onreadystatechange = function(){  
             if(xhr.readyState == 4){  
                if(xhr.status == 200){  
-                   alert("success");  
+                   alert(xhr.responseText);  
                }else{  
                    alert("error");  
                }  
