@@ -1009,5 +1009,22 @@
 				CopyRight@2008 www.100du.com 100度享乐网 版权所有 京ICP证070374号
 			</p>
 		</div>
+		<p><input id="aaa" type="button" value="jsonp"/></p>
 	</body>
+	<scripe>
+		var aaa = document.getElementById("aaa");
+		aaa.onclick= function () {
+			var xhr = new XMLHttpRequest();
+			xhr.open("GET", "http://test.com/?keywords=手机", true);  
+			xhr.onreadystatechange = function(){  
+            if(xhr.readyState == 4){  
+               if(xhr.status == 200){  
+                   alert("success");  
+               }else{  
+                   alert("error");  
+               }  
+           }  
+        }  
+        req.send();  
+	</scripe>
 </html>
