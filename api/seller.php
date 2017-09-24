@@ -14,8 +14,8 @@ header('content-type:application:json;charset=utf8');
 $origin = isset($_SERVER['HTTP_ORIGIN'])? $_SERVER['HTTP_ORIGIN'] : '';  
   
 $allow_origin = array(  
-    'http://www.client.com',  
-    'http://www.client2.com'  
+    'https://f641753527.github.io/100du',  
+    'https://f641753527.github.io/100du/'  
 );  
   
 if(in_array($origin, $allow_origin)){  
