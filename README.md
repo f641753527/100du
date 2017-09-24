@@ -1,2 +1,1 @@
-# test11
-my test
+# a static web page
