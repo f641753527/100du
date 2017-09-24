@@ -1,0 +1,1 @@
+callback ({status: 'ok', data: {id: '1'}});
