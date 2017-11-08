@@ -1009,24 +1009,5 @@
 				CopyRight@2008 www.100du.com 100度享乐网 版权所有 京ICP证070374号
 			</p>
 		</div>
-		<p><input id="aaa" type="button" value="jsonp" /></p>
 	</body>
-	<script>
-		var aaa = document.getElementById("aaa");
-		aaa.onclick= function () {
-			alert("123");
-			var xhr = new XMLHttpRequest();
-			xhr.open("GET", "https://github.com/f641753527/100du/tree/master/api/seller.php", true);
-			xhr.send();  
-			xhr.onreadystatechange = function(){  
-				if(xhr.readyState == 4){  
-					if(xhr.status == 200){  
-						alert(xhr.responseText);  
-					}else{  
-						alert("error");  
-					}  
-				}  
-			}
-		}
-	</script>
 </html>
